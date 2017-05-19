@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:appcompat="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_item_new"
+        android:title="@string/menu_item_new"
+        android:icon="@drawable/glyphicons_432_plus"
+        appcompat:showAsAction="always">
+    </item>
+    <item
+        android:id="@+id/menu_item_save"
+        android:title="@string/menu_item_save"
+        android:icon="@drawable/abc_ic_cab_done_holo_dark"
+        appcompat:showAsAction="always">
+    </item>
+
+
+
+</menu>

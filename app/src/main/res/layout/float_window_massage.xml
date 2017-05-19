@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:id="@+id/Massage_window_layout"
+        android:layout_width="383dp"
+        android:layout_height="574dp"
+        android:background="@android:color/transparent">
+
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="59dp">
+
+        </GridLayout>
+
+    </LinearLayout>
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:maxWidth="240dp"
+        android:layout_gravity="center"
+
+        android:background="@drawable/massage"
+        android:id="@+id/Massge_View"
+        android:text="dfj dsFDsfs"
+        android:textSize="18dp"
+        android:gravity="center|start"
+        android:textColor="@color/abc_primary_text_disable_only_material_light"
+        android:typeface="serif"
+        android:clickable="true" />
+
+</FrameLayout>
